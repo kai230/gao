@@ -25,7 +25,12 @@
 {"key":"暴風","name":"暴風┃采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"量子","name":"量子┃采集","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["国产剧","国产动漫","日韩动漫","动作片","喜剧片","爱情片","科幻片","韩国剧","日本剧","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key":"豆豆","name":"豆瓣┃搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
-
+{"key":"drpy_js_360影视","name":"官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
+{"key":"drpy_js_奇珍异兽","name":"官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
+{"key":"drpy_js_百忙无果","name":"官源┃芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
+{"key":"drpy_js_腾云驾雾","name":"官源┃腾讯[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
+{"key":"drpy_js_菜狗","name":"官源┃搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
+{"key":"drpy_js_优酷","name":"官源┃优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
 {"key":"苹果","name":"苹果┃不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"糯米","name":"糯米┃秒播","type":3,"api":"csp_Nmys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"./json/nmys.json"}, 
 
@@ -115,12 +120,7 @@
 {"key":"Gaoqing","name":"弹幕┃高清网","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://gaoqing.la/$$$proxy$$$1","jar":"./jar/pg.jar;md5;8ac13fa2b75afe3efe5092bcbdf9dd14"},
 {"key":"push_agent","name":"手机┃推送[jar]","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json", "timeout":30,"jar":"./jar/pg.jar;md5;8ac13fa2b75afe3efe5092bcbdf9dd14"},
 
-{"key":"drpy_js_360影视","name":"官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
-{"key":"drpy_js_奇珍异兽","name":"官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
-{"key":"drpy_js_百忙无果","name":"官源┃芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
-{"key":"drpy_js_腾云驾雾","name":"官源┃腾讯[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
-{"key":"drpy_js_菜狗","name":"官源┃搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
-{"key":"drpy_js_优酷","name":"官源┃优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
+
 {"key":"drpy_js_我的哔哩","name":"弹幕┃我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/我的哔哩.js"},
 {"key":"drpy_js_哔哩直播","name":"弹幕┃哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
 {"key":"drpy_js_JustLive","name":"直播┃JustLive[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/JustLive.js"},
