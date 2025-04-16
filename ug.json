@@ -44,8 +44,16 @@
     ],
     "sites": [
         {
+            "key": "蝴蝶",
+            "name": "💡小依依",
+            "type": 3,
+            "api": "csp_Hudie",
+            "playerType": 2,
+            "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+        },
+        {
             "key": "豆瓣2",
-            "name": "📢tv",
+            "name": "📢小依依",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -146,14 +154,7 @@
             "searchable": 1,
             "changeable": 1
         },
-        {
-            "key": "蝴蝶",
-            "name": "💡蝴蝶｜影视",
-            "type": 3,
-            "api": "csp_Hudie",
-            "playerType": 2,
-            "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-        },
+        
         {
             "key": "低端",
             "name": "💡低端｜影视",
